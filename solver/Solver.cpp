@@ -4,8 +4,13 @@
 #include <iostream>
 #include <vector>
 #include "Solver.h"
+#include "../board/Board.h"
+#include <set>
+#include <map>
+#include <tuple>
 using namespace std;
 
-vector<vector<int>> Solver::solve(vector<vector<int>> board) {
+Board Solver::solve(Board board) {
+    map<tuple<int, int>, set<int>> possibilities;
     return board;
 }

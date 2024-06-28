@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <vector>
+#include "../board/Board.h"
 using namespace std;
 
 #ifndef SUDOKU_SOLVER_H
@@ -10,7 +11,7 @@ using namespace std;
 
 class Solver{
 public:
-    static vector<vector<int>> solve(vector<vector<int>> board);
+    static Board solve(Board board);
 };
 
 #endif //SUDOKU_SOLVER_H
